@@ -184,5 +184,26 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--btntxt);
+    color: var(--secbackground);
+}
+
+
+
+@media(max-width: 768px){
+nav{
+    flex-direction: column;
+    gap:15px;
+    padding:15px;
+}
+nav ul{
+    gap:12px;
+}
+.hero{
+    height: 600px;
+
+}
+.hero .txt{
+    left:20px;
+    right: 20px;
+}
 }
