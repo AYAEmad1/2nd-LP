@@ -12,6 +12,7 @@ body {
     --buttons: #DCCBA3;
     --btntxt: #6F4E37;
     --accent: pink;
+   
 }
 
 header nav ul {
@@ -37,11 +38,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--secbackground);
+    color: var(--buttons);
 }
 
 nav a:hover {
-    color: var(--btntxt);
+    color: var(--secbackground);
 }
 
 nav ul {
